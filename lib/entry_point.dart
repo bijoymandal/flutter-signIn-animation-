@@ -1,5 +1,6 @@
 import 'package:fanimation/components/animated_bar.dart';
 import 'package:fanimation/models/rive_asset.dart';
+import 'package:fanimation/screens/onboding/home/home_screen.dart';
 import 'package:fanimation/utils/rive_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
@@ -17,6 +18,11 @@ class _EntryPointState extends State<EntryPoint> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      //overflow bottom bar overflow
+      resizeToAvoidBottomInset: false,
+      extendBody: true,
+      //
+      body: const HomeScreen(),
       bottomNavigationBar: SafeArea(
         child: Container(
           padding: EdgeInsets.all(12),
