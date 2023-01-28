@@ -1,3 +1,4 @@
+import 'package:fanimation/components/side_menu.dart';
 import 'package:fanimation/screens/onboding/onboding_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
           errorBorder: defaultInputBorder,
         ),
       ),
-      home: const OnboardingScreen(),
+      home: const SideMenu(),
     );
   }
 }
