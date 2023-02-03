@@ -1,4 +1,4 @@
-# fanimation
+# login animation
 
 A new Flutter project.
 
